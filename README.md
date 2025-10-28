@@ -23,7 +23,7 @@ The goal is to identify the most influential users within the network and demons
 | ---------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | `Algorithms_for_Massive_Data_Gowalla_PageRank.ipynb` | Google Colab / Jupyter notebook implementing PageRank using PySpark                    |
 | `Gowalla_Project_Report.pdf`                         | Full report including dataset description, methodology, visualizations, and discussion |
-| `Gowalla_edges.csv` *(optional)*                     | Input dataset (edges list) – may be omitted if dataset size is large                   |
+| `Gowalla_edges.csv`                                  | Input dataset (edges list) – may be omitted if dataset size is large                   |
 
 ---
 
@@ -32,12 +32,12 @@ The goal is to identify the most influential users within the network and demons
 * **Python:** 3.11
 * **PySpark:** 3.5.0
 * **Libraries:** `pandas`, `matplotlib`, `networkx`
-* **Runtime:** Google Colab (recommended)
+* **Runtime:** Google Colab 
 
 To run in Colab, simply upload the notebook and dataset, or clone this repository:
 
 ```bash
-git clone https://github.com/YourUsername/Gowalla-PageRank-AMD.git
+git clone https://github.com/RustamBw/PageRank.git
 ```
 
 ---
